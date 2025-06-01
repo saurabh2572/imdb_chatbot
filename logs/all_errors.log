@@ -1,0 +1,14 @@
+ERROR:all_errors:Error While Having Conversation. Error at chat() of ChatBot.py.
+Error: chat_context() missing 1 required positional argument: 'query'
+ERROR:all_errors:Unable to Get Context. Error at chat_context() of ChatBot.py.
+Error: upload_data() missing 1 required positional argument: 'messages'
+ERROR:all_errors:Error While Having Conversation. Error at chat() of ChatBot.py.
+Error: [Error] Unable to Get Context
+ERROR:all_errors:Unable to Get Context. Error at chat_context() of ChatBot.py.
+Error: upload_data() missing 1 required positional argument: 'messages'
+ERROR:all_errors:Error While Having Conversation. Error at chat() of ChatBot.py.
+Error: [Error] Unable to Get Context
+ERROR:all_errors:Unable to Get Context. Error at chat_context() of ChatBot.py.
+Error: upload_data() missing 1 required positional argument: 'messages'
+ERROR:all_errors:Error While Having Conversation. Error at chat() of ChatBot.py.
+Error: [Error] Unable to Get Context

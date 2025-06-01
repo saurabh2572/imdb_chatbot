@@ -1,0 +1,8 @@
+{
+PATH: {
+RAW_DATA: ./data/raw/raw_data.csv,
+PROCESSED_DATA: ./data/processed/processed_data.csv,
+VECTOR_EMBEDDING: ./data/processed/vector_embeddings.json,
+FAISS_VECTOR_STORE: ./vector_db/faiss_movie_embeddings,
+SQL_PROCESSED_DATA: ./data/processed/sql_processed_data.csv
+}}
