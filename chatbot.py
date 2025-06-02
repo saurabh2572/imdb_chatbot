@@ -7,9 +7,6 @@ from dotenv import load_dotenv
 from langchain_openai import AzureOpenAIEmbeddings
 from langchain_openai import AzureChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
-from azure.search.documents import SearchClient
-from azure.core.credentials import AzureKeyCredential
-from azure.search.documents.models import VectorizedQuery
 from langchain_community.chat_message_histories.cosmos_db import CosmosDBChatMessageHistory
 import time
 import sqlite3
@@ -191,7 +188,7 @@ class IMDBbot:
 
             # Step 4: Parse JSON and extract the "Analysis" field
             analysis_result = json.loads(cleaned_response)
-            result = analysis_result.get("Analysis", False)
+            result = analysis_result["Analysis"]
 
             print("Guardrail check completed successfully.")
             return result
