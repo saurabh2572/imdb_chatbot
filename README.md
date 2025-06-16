@@ -24,6 +24,9 @@ Welcome to IMDB Agent, your advanced chatbot powered by generative AI designed t
 
 ### Solution Architecture
 
+
+<img width="1130" alt="imdb_bot_architecture" src="https://github.com/user-attachments/assets/df79ae34-2b78-4c09-a439-e998f6f08c8d" />
+
 ### LangGraph Workflow
 
 <img width="443" alt="Screenshot 2025-06-16 at 12 14 07 AM" src="https://github.com/user-attachments/assets/011b8ef2-7514-496d-a9da-79437779377c" />
