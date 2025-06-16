@@ -1,10 +1,20 @@
-.MuiStack-root.watermark::after {
-    content: "AI Buddy can make mistakes. Consider checking important information.";
-    font-size: small;
-    color: rgb(159, 159, 159);
-    visibility: visible !important;
-    /* Other CSS styles for the pseudo-element */
+
+
+.watermark::after {
+    content: "IMDB Agent can make mistakes. Consider checking important information."; 
+    visibility: visible;
+    font-family: Inter;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translateX(-50%);
+  
 }
+
 a[href*='https://github.com/Chainlit/chainlit'] {
     visibility: hidden;
 }
+

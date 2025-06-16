@@ -35,7 +35,7 @@ def load_csv_to_sqlite(db_path, csv_path):
                 Rate FLOAT,
                 Metascore FLOAT,
                 Description TEXT,
-                Cast TEXT,
+                Cast VARCHAR(100),
                 Info TEXT,
                 Votes BIGINT,
                 Gross DOUBLE

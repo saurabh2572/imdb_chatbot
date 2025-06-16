@@ -111,11 +111,11 @@ class VectorEmbeddings:
         print(f"✅ FAISS vector store saved at: {persist_dir}")
 
 client = AzureOpenAIEmbeddings(
-azure_endpoint = os.getenv("AZURE_OPEN_AI_ENDPOINT"),
-api_key=os.getenv("AZURE_OPEN_AI_API_KEY"),  
-api_version=os.getenv("AZURE_OPEN_AI_VERSION")
+azure_endpoint = os.getenv("AZURE_OPENAI_EMBEDDING_ENDPOINT"),
+api_key=os.getenv("AZURE_OPENAI_EMBEDDING_KEY"),  
+api_version=os.getenv("AZURE_OPENAI_EMBEDDING_VERSION")
 )
-embedd_model = "text-embedding-ada-002"
+embedd_model = os.getenv("AZURE_OPENAI_EMBEDDING_MODEL")
 vectors=VectorEmbeddings(client,embedd_model,CONFIG)
 
 if __name__ == "__main__":  

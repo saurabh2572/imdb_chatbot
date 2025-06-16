@@ -12,3 +12,16 @@ ERROR:all_errors:Unable to Get Context. Error at chat_context() of ChatBot.py.
 Error: upload_data() missing 1 required positional argument: 'messages'
 ERROR:all_errors:Error While Having Conversation. Error at chat() of ChatBot.py.
 Error: [Error] Unable to Get Context
+ERROR:graph:Rephrase node error: module 'prompts' has no attribute 'rephrase_query_prompt'
+ERROR:graph:Language detection failed: module 'prompts' has no attribute 'language_detection_prompt'
+ERROR:graph:Guardrail check failed: module 'prompts' has no attribute 'guardrail_prompt'
+ERROR:graph:Unrelated response failed: module 'prompts' has no attribute 'unrelated_query_prompt'
+ERROR:graph:Rephrase node error: module 'prompts' has no attribute 'rephrase_query_prompt'
+ERROR:graph:Language detection failed: module 'prompts' has no attribute 'language_detection_prompt'
+ERROR:graph:Guardrail check failed: module 'prompts' has no attribute 'guardrail_prompt'
+ERROR:graph:Unrelated response failed: module 'prompts' has no attribute 'unrelated_query_prompt'
+ERROR:graph:Guardrail check failed: '\n            "Analysis"'
+ERROR:graph:Guardrail check failed: '\n            "Analysis"'
+ERROR:graph:Guardrail check failed: '\n            "Analysis"'
+ERROR:graph:Guardrail check failed: '\n            "Analysis"'
+ERROR:graph:Guardrail check failed: '\n            "Analysis"'
